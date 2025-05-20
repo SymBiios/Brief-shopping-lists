@@ -1,0 +1,44 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * Basic typography style for copy text
+ */
+/* Styles de base pour la liste de courses */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.add-item-form {
+  margin-bottom: 15px;
+}
+
+#shopping-list {
+  list-style: none;
+  padding: 0;
+}
+#shopping-list .shopping-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+#shopping-list .shopping-item .quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#shopping-list li {
+  display: flex;
+  align-items: center;
+}
+#shopping-list li span {
+  margin-right: 10px;
+}
+#shopping-list li button {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
