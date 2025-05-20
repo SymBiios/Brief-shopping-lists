@@ -1,3 +1,31 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+/* Styles de base pour la liste de courses */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.add-item-form {
+  margin-bottom: 15px;
+}
+
+#shopping-list {
+  list-style: none;
+  padding: 0;
+
+  .shopping-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+
+    .quantity-control {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}

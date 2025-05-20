@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de Courses</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ma Liste de Courses</h1>
+
+      <div class="add-item-form">
+        <input type="text" id="item-name" placeholder="Nom de l'article" />
+
+        <label for="item-quantity">Quantité:</label>
+        <input type="number" id="item-quantity" min="1" value="1" />
+
+        <button id="add-button">Ajouter</button>
+      </div>
+
+      <div class="shopping-list-container">
+        <h2>Articles</h2>
+        <ul id="shopping-list"></ul>
+
+        <div class="list-actions">
+          <button id="clear-all-button">Tout Supprimer</button>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
